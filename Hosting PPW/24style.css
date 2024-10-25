@@ -1,0 +1,25 @@
+.container {
+    max-width: 500px;
+}
+
+.img-custom {
+    width: 150px; /* Atau bisa dengan persentase seperti 50% */
+    height: 150px; /* Agar menjaga rasio gambar */
+    border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
+    object-fit: cover; /* Agar gambar menyesuaikan dengan bentuk lingkaran */
+    border: 5px solid #fff;
+  }
+
+  .icon-hover:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+body {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+}
+
+.social-icon:hover {
+    color: #007bff; /* Change color on hover */
+    transition: color 0.3s ease-in-out;
+}
